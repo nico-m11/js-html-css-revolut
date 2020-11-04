@@ -30,3 +30,7 @@
   padding: 5px;
   display: none;
 }
+
+.bar > .active {
+  display: block;
+}

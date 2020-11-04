@@ -1,7 +1,10 @@
 $(document).ready(function(){
 
   $('.btn').click(function() {
-    alert('ciao')
+  
+
+    var dis = $('.bar')
+    dis.toggle('active')
 
 
 
