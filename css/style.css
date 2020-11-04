@@ -10,7 +10,6 @@
   border: solid black 1px;
   display: flex;
   justify-content: space-between;
-  align-items:
 }
 
 .destra {
@@ -23,14 +22,36 @@
 }
 
 .bar {
-  height: 120px;
+  height: 150px;
   width: 120px;
-  border: solid black 1px;
   text-align: center;
   padding: 5px;
   display: none;
 }
 
 .bar > .active {
+  display: flex;
+}
+
+ul > a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+.container-menu {
+  border: solid 1px black;
+}
+
+.second-menu {
   display: block;
+  flex-direction: row;
+  margin-left: 100px;
+  display: none;
+}
+
+.second-menu > .active {
+  display: flex;
 }
