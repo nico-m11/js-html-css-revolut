@@ -31,6 +31,7 @@
 
 .bar > .active {
   display: flex;
+  flex-wrap: wrap;
 }
 
 ul > a {
@@ -46,7 +47,6 @@ li {
 }
 
 .second-menu {
-  display: block;
   flex-direction: row;
   margin-left: 100px;
   display: none;
@@ -54,4 +54,41 @@ li {
 
 .second-menu > .active {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.terz-menu {
+  flex-direction: row;
+  margin-left: 165px;
+  display: none;
+}
+
+.terz-menu > .active {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.quart-menu {
+  flex-direction: row;
+  margin-left: 240px;
+  display: none;
+}
+
+.quint-menu {
+  flex-direction: row;
+  margin-left: 300px;
+  display: none;
+}
+
+.sei-menu {
+  flex-direction: row;
+  margin-left: 380px;
+  display: none;
+}
+.sinistra {
+  text-align: center;
+  margin: 20px 30px;
+}
+.sinistra > a {
+  margin-left: 40px;
 }
