@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-header {
+  height: 100px;
+  width: 100vw;
+  border: solid black 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items:
+}
+
+.destra {
+  margin: 30px;
+  padding: 5px;
+}
+
+.destra > span {
+  margin-right: 20px;
+}
+
+.bar {
+  height: 120px;
+  width: 120px;
+  border: solid black 1px;
+  text-align: center;
+  padding: 5px;
+  display: none;
+}
